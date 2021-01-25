@@ -11,4 +11,6 @@ function sing() {
 }
 
 // export default helpful
+/* default exports are used when theres's a "most likely"
+thing to export */
 export {helpful, sort, sing}
