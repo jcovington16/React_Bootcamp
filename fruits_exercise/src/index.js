@@ -17,4 +17,6 @@ console.log('Delicious! May I have another?')
 let remaining = remove(foods, fruit)
 
 // Log the message "I'm sorry, we're all out. We have FRUITSLEFT left."
-console.log(`I'm sorry, we're all out. We have ${remaining.length} left.`)
+console.log(
+  `I'm sorry, we're all out. We have ${remaining.length} other foods left.`
+)
